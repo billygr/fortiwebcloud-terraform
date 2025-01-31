@@ -45,22 +45,22 @@ This integration has been tested against Terraform version 1.0.6. Versions above
         - windows_amd64 for Windows
 
 
-    Example in linux environment and the version is 1.0.2
+    Example in linux environment and the version is 1.0.4
     ```sh
-    $ mkdir -p ~/.terraform.d/plugins/fortinet/terraform/fortiwebcloud/1.0.2/linux_amd64/
-    $ mv terraform-provider-fortiwebcloud ~/.terraform.d/plugins/fortinet/terraform/fortiwebcloud/1.0.2/linux_amd64/
+    $ mkdir -p ~/.terraform.d/plugins/fortinet/terraform/fortiwebcloud/1.0.4/linux_amd64/
+    $ mv terraform-provider-fortiwebcloud ~/.terraform.d/plugins/fortinet/terraform/fortiwebcloud/1.0.4/linux_amd64/
     ```
 ## Using the Provider
 
 If you're building the provider, follow the instructions to [install it as a plugin](https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin). After placing it into your plugins directory,  run `terraform init` to initialize it.
 
-If you have followed the instructions above for installing the 1.0.2, your main.tf should contain the following reference:
+If you have followed the instructions above for installing the 1.0.4, your main.tf should contain the following reference:
 ```
 terraform {
   required_providers {
     fortiwebcloud = {
       source  = "fortinet/terraform/fortiwebcloud"
-      version = "1.0.2"
+      version = "1.0.4"
     }
   }
 }
