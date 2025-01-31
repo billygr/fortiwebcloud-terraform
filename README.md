@@ -54,6 +54,17 @@ This integration has been tested against Terraform version 1.0.6. Versions above
 
 If you're building the provider, follow the instructions to [install it as a plugin](https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin). After placing it into your plugins directory,  run `terraform init` to initialize it.
 
+If you have followed the instructions above for installing the 1.0.2, your main.tf should contain the following reference:
+```
+terraform {
+  required_providers {
+    fortiwebcloud = {
+      source  = "fortinet/terraform/fortiwebcloud"
+      version = "1.0.2"
+    }
+  }
+}
+```
 ```sh
 $ terraform init
 ```
