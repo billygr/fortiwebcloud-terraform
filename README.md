@@ -22,11 +22,11 @@ This integration has been tested against Terraform version 1.0.6. Versions above
 
     https://github.com/fortinet/fortiwebcloud-terraform/tags
 
-    ex, for the version tag 1.0.2
+    ex, for the version tag 1.0.4
     ```sh
-    $ wget https://github.com/fortinet/fortiwebcloud-terraform/archive/refs/tags/1.0.2.tar.gz
-    $ tar xvzf 1.0.2.tar.gz
-    $ cd fortiwebcloud-terraform-1.0.2
+    $ wget https://github.com/fortinet/fortiwebcloud-terraform/archive/refs/tags/1.0.4.tar.gz
+    $ tar xvzf 1.0.4.tar.gz
+    $ cd fortiwebcloud-terraform-1.0.4
     ```
 
 2. Build the plugin
